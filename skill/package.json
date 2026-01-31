@@ -1,0 +1,79 @@
+{
+  "name": "adcp-advertising",
+  "version": "1.0.0",
+  "description": "Publish and manage advertising campaigns using the Ad Context Protocol (AdCP). Supports product discovery, campaign management, creative assets, performance monitoring, and optimization.",
+  "author": "AdCP Community",
+  "license": "MIT",
+  "keywords": [
+    "advertising",
+    "adcp",
+    "ad-context-protocol",
+    "programmatic",
+    "media-buying",
+    "campaigns",
+    "display-ads",
+    "video-ads",
+    "creatives",
+    "targeting",
+    "openclaw",
+    "clawhub"
+  ],
+  "openclaw": {
+    "skillVersion": "1.0",
+    "minOpenClawVersion": "2026.1.0",
+    "category": "advertising",
+    "tags": [
+      "advertising",
+      "marketing",
+      "media",
+      "campaigns",
+      "programmatic"
+    ],
+    "protocols": [
+      "mcp",
+      "a2a"
+    ]
+  },
+  "homepage": "https://docs.adcontextprotocol.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edyyy62/openclaw-adcp"
+  },
+  "bugs": {
+    "url": "https://github.com/edyyy62/openclaw-adcp/issues"
+  },
+  "upstream": {
+    "name": "Ad Context Protocol",
+    "url": "https://github.com/adcontextprotocol/adcp",
+    "description": "Official AdCP specification and reference implementation"
+  },
+  "documentation": {
+    "quickstart": "SKILL.md",
+    "reference": "REFERENCE.md",
+    "examples": "EXAMPLES.md",
+    "protocols": "PROTOCOLS.md",
+    "targeting": "TARGETING.md",
+    "creative": "CREATIVE.md"
+  },
+  "capabilities": {
+    "discovery": true,
+    "campaignManagement": true,
+    "creativeManagement": true,
+    "performanceTracking": true,
+    "optimization": true,
+    "multiChannel": true,
+    "channels": [
+      "display",
+      "video",
+      "ctv",
+      "audio",
+      "native",
+      "dooh"
+    ]
+  },
+  "testAgent": {
+    "url": "https://test-agent.adcontextprotocol.org/mcp",
+    "authToken": "1v8tAhASaUYYp4odoQ1PnMpdqNaMiTrCRqYo9OJp6IQ",
+    "interactiveTesting": "https://testing.adcontextprotocol.org"
+  }
+}
